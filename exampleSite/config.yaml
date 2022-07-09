@@ -1,37 +1,32 @@
-baseurl: https://example.com
+baseurl: https://sanghyun.me
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: 상현이의 사이트
 
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Sanghyun's Blog
         weight: 1
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
+    ko:
+        languageName: Korean
+        title: 상현이의 블로그
+        weight: 1
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: spark-in-you
 
 # GA Tracking ID
 googleAnalytics:
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
+DefaultContentLanguage: ko
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 permalinks:
     post: /p/:slug/
@@ -45,7 +40,7 @@ params:
     favicon:
 
     footer:
-        since: 2020
+        since: 2022
         customText:
 
     dateFormat:
@@ -54,7 +49,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 아무거나 적는 
         avatar:
             enabled: true
             local: true
